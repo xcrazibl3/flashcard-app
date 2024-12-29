@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 30%));
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  text-align: center;
+  min-height: 160px;
+  border-radius: 4px;
+}
+
+.card--clicked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  text-align: center;
+  min-height: 160px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+.card__title {
+  font-size: 18px;
+  text-align: center;
+}
